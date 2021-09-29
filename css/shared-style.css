@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    background-color: black;
+    color: whitesmoke;
+    height: 100px;
+    position: sticky;
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
