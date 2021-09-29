@@ -1,13 +1,50 @@
+/*header bar*/
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-content: center;
-    background-color: black;
-    color: whitesmoke;
-    height: 100px;
+    background-color: rgb(12, 12, 12);
+    height: 70px;
+    padding: 20px;
     position: sticky;
+    margin: 0 auto;
 }
-h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+}
+.nav-bar-title {
+    color: darkred;
+    align-self: center;
+    font-family: "custom-title";
+    font-size: 40px;
+    flex-grow: 1;
+}
+.nav-link {
+    color: whitesmoke;
+    font-size: larger;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+.nav-link:hover {
+    color: darkviolet;
+}
+@font-face {
+    font-family: "custom-title";
+    src: url("/fonts/Strange\ Path.ttf");
+}
+
+/*body*/
+body {
+    background-color: lightgrey;
+    margin: 0px;
+}
+.flex-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
