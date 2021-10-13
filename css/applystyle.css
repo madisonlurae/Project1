@@ -1,0 +1,18 @@
+.flex-parent {
+    margin: 30px;
+    margin-left: 40px;
+}
+.app-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.form-group {
+    padding: 3px;
+}
+
+#submit {
+    max-width: 70px;
+    margin-top: 20px;
+}
